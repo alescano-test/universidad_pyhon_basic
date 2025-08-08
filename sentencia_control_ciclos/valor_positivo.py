@@ -1,0 +1,8 @@
+print('*** Revisión valor positivo ***')
+numero = int(input('Proporfiona un número: '))
+if numero > 0:
+    print(f'Es positivo: {numero}')
+elif numero < 0:
+    print(f'Es negativo: {numero}')
+else:
+    print(f"Es cero {numero}.")
